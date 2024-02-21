@@ -9,7 +9,7 @@
     "deleteScreenshots": "rm cypress/screenshots/** || true",
     "cy.open": "cypress open",
     "cy:run": "cypress run --config video=false",
-    "test": "npm run deleteResults && npm run deleteScreenshots && npm run cy:run "
+    "test": "npm run deleteResults && npm run deleteScreenshots && npm run cy:run"
   },
   "author": "Ricardo Souza",
   "license": "ISC",

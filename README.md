@@ -28,7 +28,7 @@ Para executar os testes, você pode utilizar os seguintes comandos:
 - Executar testes no navegador interno:
 
 ```bash
-npm run deleteResults && npm run cy:run
+npm run deleteResults && npm run deleteScreenshots && npm run cy:run
 ```
 
 - Executar testes no modo headless (sem interface gráfica):
