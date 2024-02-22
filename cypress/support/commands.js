@@ -1,4 +1,4 @@
-Cypress.Commands.add('cliqueNobotao', () => {
+Cypress.Commands.add('clickButton', () => {
 
     cy.section('Inicio de teste')
     cy.step(`Validando existencia de elementos`)
@@ -67,7 +67,7 @@ Cypress.Commands.add('cliqueNobotao', () => {
 
 Cypress.Commands.add('clickDeleteEdit', () => {
     cy.section('Inicio de teste')
-    cy.step(`Clicando nos botão com edit`)
+    cy.step(`Clicando nos botões com edit`)
 
     cy.get('a[href="#edit"]')
         .each(($el, indexEdit) => {
@@ -77,7 +77,7 @@ Cypress.Commands.add('clickDeleteEdit', () => {
         });
 
 
-    cy.step(`Clicando nos botão com delete`)
+    cy.step(`Clicando nos Botões com delete`)
     cy.get('a[href="#delete"]')
         .each(($el, indexDelete) => {
             cy.wrap($el).click()
