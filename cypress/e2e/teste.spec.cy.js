@@ -6,7 +6,6 @@ describe('Testes interação GUI', () => {
     });
     it('Deverá clicar um click nos três botoes exibidos na tela', () => {
         cy.cliqueNobotao();
-        cy.clickDeleteEdit()
     });
     it('Deverá clicar  em todos os botões edit e delete da Grid', () => {
         cy.clickDeleteEdit()
