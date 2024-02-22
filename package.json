@@ -1,7 +1,7 @@
 {
   "name": "automacaoteste",
   "version": "1.0.0",
-  "description": "Projeto de automação API-test",
+  "description": "Projeto de automação test-GUI",
   "main": "index.js",
   "scripts": {
     "updateLibrary": "npm install",
