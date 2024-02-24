@@ -173,7 +173,7 @@ function generateHtml(xmlDoc, currentFile, htmlFiles, darkMode, projectName) {
     </head>
     <body class="${darkMode ? 'dark-mode' : ''}">
       <div id="logo">
-      <a href=""><img src="../cypress/fixtures/gui-testing-glyph-logo.png" alt="Logo"></a>
+      <a href="https://www.cypress.io/"><img src="../cypress/fixtures/qa-testing-logo.jpg" alt="Logo"></a>
        
       </div>
       <h2 class='titulo'>Reporte dos testes ${projectName}</h2>
