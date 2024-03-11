@@ -9,9 +9,11 @@ module.exports = defineConfig({
     env: {
       "hideXhr": true,
       'cypress-plugin-skip-url-logging': true, // Permitirá ocultar as solicitações XHR durante a execução de testes no Cypress.
-      "viewportWidth": 1920, viewportHeight: 1080, // tamanho da janela de visualização (viewport), que neste caso foi definido como 1920x1080 pixels. 
+      "viewportWidth": 1280,
+      "viewportHeight": 720, // tamanho da janela de visualização (viewport), que neste caso foi definido como 1920x1080 pixels. 
       "video": false, // e a opção de gravar vídeo (video), que neste caso foi desativada (false).
       "chromeWebSecurity": false,
+      "theme": "dark",
     },
     reporter: 'junit',
     reporterOptions: {
